@@ -1,0 +1,9 @@
+vpc_cidr_block = "10.0.0.0/16"
+vpc_tag = "my_vpc"
+subnet_cidr_block = [ "10.0.0.0/18", "10.0.64.0/18", "10.0.128.0/18", "10.0.192.0/18" ]
+subnet_az = [ "us-east-2a", "us-east-2b" ]
+map_public_ip_on_launch = [ true, false ]
+subnet_name = [ "pub-1 subnet", "pub-2 subnet", "pri-1 subnet", "pri-2 subnet" ]
+igw_name = "my_internet_gateway"
+sg_name = "my_sg"
+ports = [ 22, 80, 8080, 3306, 0 ]
